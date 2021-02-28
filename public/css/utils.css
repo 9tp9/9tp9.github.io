@@ -193,6 +193,10 @@ textarea.form-control{
 .fs-32{ font-size: 32px !important; }
 .fs-64{ font-size: 64px !important; }
 
+.ta-c{ text-align: center !important; }
+.ta-l{ text-align: left !important; }
+.ta-r{ text-align: right !important; }
+
 .to-ellipsis{
     overflow: hidden;
     text-overflow: ellipsis;

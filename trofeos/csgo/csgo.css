@@ -1,0 +1,38 @@
+.main-div{
+    padding-bottom: 25px;
+}
+
+.main-div .trophies .trophy{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #0e1316;
+}
+
+.main-div .trophies .trophy .attr{
+    display: block;
+}
+.main-div .trophies .trophy .desc{
+    color: #b1b1b1;
+}
+.main-div .trophies .trophy table{
+    margin-top: 10px;
+}
+
+.main-div .trophies .trophy .medal{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.main-div .trophies .trophy .medal.gold{
+    background-color: #FFD700;
+}
+.main-div .trophies .trophy .medal.silver{
+    background-color: #C0C0C0;
+}
+.main-div .trophies .trophy .medal.bronze{
+    background-color: #CD7F32;
+}

@@ -1,0 +1,42 @@
+.main-div{
+    padding-bottom: 25px;
+}
+
+.main-div .title{
+    margin: 20px 0 5px;
+    color: #707070;
+}
+
+.main-div .game-list{
+    padding-left: 35px;
+}
+
+.main-div .games .game{
+    border-radius: 5px;
+    height: 250px;
+    padding: 10px;
+    opacity: 0.9;
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div .games .game:hover{
+    opacity: 0.5;
+}
+.main-div .games .game .logo-img{
+    width: 50%;
+}
+.main-div .games .game.csgo{
+    background-color: #000;
+}
+.main-div .games .game.csgo:hover{
+    content: 'CS:GO';
+}
+.main-div .games .game.rocket{
+    background-color: #fff;
+}
+.main-div .games .game.rocket:hover{
+    content: 'Rocket League';
+}
